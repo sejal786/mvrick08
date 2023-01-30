@@ -1,0 +1,38 @@
+{% extends 'index.html' %}
+
+{% block title %} Add Doctor{% endblock title %}
+
+{% block content %}
+
+<form method="POST">
+    {{form.as_p}}
+    {% csrf_token %}
+    <input type="submit" value="save">
+</form>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
